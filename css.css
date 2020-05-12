@@ -1,0 +1,89 @@
+@charset "utf-8";
+html {
+	font-size: 18px;
+}
+
+body {
+	background: #DA4453;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89216B, #DA4453);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89216B, #DA4453); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	margin: 0;
+	font-family: "Helvetica", sans serif;
+	font-weight: normal;
+	text-align: justify;
+	text-align-last: left;
+	line-height: 1.5;
+}
+
+.text{
+	padding-left: 3em;
+}
+
+
+
+p {
+	margin: 0;
+	color: white;
+	padding-right: 30em;
+}
+
+h1 {
+	font-size: 4rem;
+	margin-bottom: 0.10em;
+	line-height: 1.2;
+	color: white;
+	font-weight: 900;
+	letter-spacing: -2px;
+}
+
+.navbar {
+	padding: 3em 0;
+}
+
+.nav-list {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	justify-content: flex-end;
+}
+
+.nav-item {
+	margin-left: 1.5em;
+}
+
+.nav-link {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	transition: color 0.15s ease-in-out;
+	padding-right: 4em;
+}
+.nav-link-email {
+	color: white;
+	font-weight: bold;
+	transition: color 0.15s ease-in-out;
+	padding-right: 2em;
+	font-size: 36px;
+	text-decoration: underline;
+}
+.nav-link-email:hover,
+.nav-link-email:focus {
+color: #C4C4C4;
+
+}
+
+
+
+.nav-link-twitter {
+	color: white;
+	font-weight: bold;
+	transition: color 0.15s ease-in-out;
+	font-size: 18px;
+}
+	
+.nav-link-twitter:hover
+.nav-link-twitter:focus {
+	color: #89216B;
+}
+
