@@ -16,7 +16,9 @@ body {
 }
 
 .text{
-	padding-left: 3em;
+	padding-left: 5em;
+	padding-top: 10em;
+	margin: auto
 }
 
 
@@ -32,7 +34,7 @@ h1 {
 	margin-bottom: 0.10em;
 	line-height: 1.2;
 	color: white;
-	font-weight: 900;
+	font-weight: 700;
 	letter-spacing: -2px;
 }
 
@@ -59,31 +61,6 @@ h1 {
 	transition: color 0.15s ease-in-out;
 	padding-right: 4em;
 }
-.nav-link-email {
-	color: white;
-	font-weight: bold;
-	transition: color 0.15s ease-in-out;
-	padding-right: 2em;
-	font-size: 36px;
-	text-decoration: underline;
-}
-.nav-link-email:hover,
-.nav-link-email:focus {
-color: #C4C4C4;
-
-}
-
-
-
-.nav-link-twitter {
-	color: white;
-	font-weight: bold;
-	transition: color 0.15s ease-in-out;
-	font-size: 18px;
-}
-	
-.nav-link-twitter:hover
-.nav-link-twitter:focus {
-	color: #89216B;
-}
-
+.nav-link:hover,
+.nav-link:focus {
+text-decoration: underline;
