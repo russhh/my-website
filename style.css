@@ -80,14 +80,14 @@ body {
     color: black;
 }
 
-.link {
+#work .link {
     font-size: 24px;
     font-weight: 500;
-    color: #0066FF;
+    color: #3183ff;
 }
 
 .rc {
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 5px;
 }
 
@@ -97,16 +97,24 @@ body {
 
 #bottom .img {
     padding-top: 33px;
-    padding-bottom: 15px;
+    padding-bottom: 33px;
     text-align: center;
     display: block;
 }
 
-.email, a:link, a:visited{
+#email {
+    padding-top: 20px;
+    background: linear-gradient(-90deg, #456BCE 0%, #00E0FF 100%);
+    box-shadow: 0px -6px 20px rgba(0, 0, 0, 0.25);
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+/*what the fuck is this*/
+#email .address {
     text-decoration: none;
     font-weight: 500;
     font-size: 24px;
-    padding-bottom: 20px;
-    text-align: center;
-    color: #0066FF;
+    color: white;
 }
